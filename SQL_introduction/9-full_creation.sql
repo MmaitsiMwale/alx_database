@@ -1,7 +1,7 @@
 --Create second tale and insert values
 -- USE hbtn_0c_0 IF EXISTS;
 -- Create the table if it doesn't exist
-CREATE TABLE IF NOT EXISTS hbtn_0c_0.second_table (
+CREATE TABLE IF NOT EXISTS second_table (
     id INT PRIMARY KEY,
     `name` VARCHAR(256),
     score INT

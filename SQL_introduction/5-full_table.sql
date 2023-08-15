@@ -1,5 +1,2 @@
 --Lists full info about my table
-SELECT *
-FROM information_schema.TABLES
-WHERE TABLE_SCHEMA = 'hbtn_0c_0'
-    AND TABLE_NAME = 'first_table';
+SHOW CREATE TABLE first_table;

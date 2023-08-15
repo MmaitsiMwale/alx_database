@@ -1,4 +1,4 @@
---Create second tale and insert values
+-- Create second tale and insert values
 -- USE hbtn_0c_0 IF EXISTS;
 -- Create the table if it doesn't exist
 CREATE TABLE IF NOT EXISTS second_table (

@@ -3,7 +3,7 @@ SELECT
     c.id,
     c.name
 FROM
-    hbtn_0d_usa.cities c
+    cities c
 WHERE
     c.state_id in (
         SELECT

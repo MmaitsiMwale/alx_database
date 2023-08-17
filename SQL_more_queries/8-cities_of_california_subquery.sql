@@ -4,5 +4,14 @@ SELECT
     c.name
 FROM
     hbtn_0d_usa.cities c
-    JOIN hbtn_0d_usa.states s ON c.state_id = s.id
-    AND s.id = 1;
+WHERE
+    c.state_id in (
+        SELECT
+            *
+        FROM
+            states
+        WHERE
+            states.name = 'California'
+    )
+ORDER BY
+    c.id;

@@ -7,7 +7,7 @@ FROM
 WHERE
     c.state_id in (
         SELECT
-            *
+            state_id
         FROM
             states
         WHERE
